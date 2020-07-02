@@ -1,9 +1,10 @@
 import React from 'react';
-import { Text,Image } from 'react-native-elements';
+import { Text, Image } from 'react-native-elements';
 import { View, StyleSheet } from 'react-native';
-import { FlatList } from 'react-native-gesture-handler';
+import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
+import { withNavigation } from 'react-navigation';
 
-export default ResultList = (props) => {
+const ResultList = (props) => {
 
     return <View>
         <Text
@@ -18,11 +19,16 @@ export default ResultList = (props) => {
             keyExtractor={(electronic) => electronic.name}
             renderItem={({ item }) => {
                 return <View style={styles.container}>
-                    <Text style={styles.title}>{item.name}</Text>
-                    <Image
-                        source={{ uri: item.img_url }}
-                        style={{ width: 200, height: 200 }}
-                    />
+                    <TouchableOpacity
+                        onPress={() => props.navigation.navigate('List', { id: item.name })}
+                    >
+                        <Text style={styles.title}>{item.name}</Text>
+                        <Image
+                            containerStyle={styles.img}
+                            source={{ uri: item.img_url }}
+                            style={{ width: 200, height: 200 }}
+                        />
+                    </TouchableOpacity>
                 </View>
             }}
         />
@@ -41,5 +47,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: 15,
         marginLeft: 15
+    },
+    img:{
+
     }
 })
+
+export default withNavigation(ResultList);
