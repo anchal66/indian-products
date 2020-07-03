@@ -12,9 +12,9 @@ export default CompanyListScreen = (props) => {
             name: 'Television',
             img_url: 'https://images-na.ssl-images-amazon.com/images/I/81t2A6uhm4L._SX425_.jpg',
             payload: [
-                'Samsung',
-                'Onida',
-                'Sony'
+                { name: 'Samsung', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'Onida', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'Sony', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' }
             ]
         },
         {
@@ -22,9 +22,9 @@ export default CompanyListScreen = (props) => {
             name: 'Refrigerator',
             img_url: 'https://www.sathya.in/Media/Default/Thumbs/0029/0029034-lg-fridge-glb221argy.jpg',
             payload: [
-                'Samsung',
-                'Whirpool',
-                'Fridge'
+                { name: 'Samsung', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'LG', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'Whirpool', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
             ]
         },
         {
@@ -32,9 +32,9 @@ export default CompanyListScreen = (props) => {
             name: 'Air Conditioner',
             img_url: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg',
             payload: [
-                'Volats',
-                'Ac',
-                'SUper Ac'
+                { name: 'Voltas', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'Hitachi', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' },
+                { name: 'Samsung', img: 'https://www.kitchenarena.in/wp-content/uploads/2018/01/split-ac-vs-window.jpg' }
             ]
         }
     ]
@@ -49,14 +49,22 @@ export default CompanyListScreen = (props) => {
             data={filterResultByPrice(id)}
             renderItem={({ item }) => {
                 return <View>
-                    <Text h3>{item.name}:</Text>
-                    {item.payload.map((item, id) => <TouchableOpacity
-                     key={id}
-                     onPress={()=>props.navigation.navigate('Details', { id: item })}
-                     >
-                        <Text h5
-                            style={{ margin: 10, padding: 10 }}>{item}</Text>
-                    </TouchableOpacity>)
+                    <Text h3 style={{marginBottom: 15}}>{item.name}:</Text>
+                    {item.payload.map((item, id) => <ScrollView 
+                            key={id}>
+                        <TouchableOpacity
+                            style={styles.list}
+                            onPress={() => props.navigation.navigate('Details', { id: item.name })}
+                        >
+                            <Image
+                                source={{ uri: item.img }}
+                                style={{ width: 100, height: 50 }}
+                            />
+                            <Text h5
+                                style={{ margin: 10, padding: 10 }}>{item.name}</Text>
+                        </TouchableOpacity>
+                    </ScrollView>
+                    )
                     }
                 </View>
             }}
@@ -85,5 +93,9 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginLeft: 15,
         marginBottom: 5
+    },
+    list: {
+        flexDirection: 'row',
+        marginBottom: 10,
     }
 })
