@@ -50,10 +50,13 @@ export default CompanyListScreen = (props) => {
             renderItem={({ item }) => {
                 return <View>
                     <Text h3>{item.name}:</Text>
-                    {item.payload.map((item, id) => <Text
-                        h5
-                        key={id}
-                        style={{ margin: 10, padding: 10 }}>{item}</Text>)
+                    {item.payload.map((item, id) => <TouchableOpacity
+                     key={id}
+                     onPress={()=>props.navigation.navigate('Details', { id: item })}
+                     >
+                        <Text h5
+                            style={{ margin: 10, padding: 10 }}>{item}</Text>
+                    </TouchableOpacity>)
                     }
                 </View>
             }}
@@ -68,7 +71,9 @@ export default CompanyListScreen = (props) => {
             onChangeText={setSearch}
             value={search}
         />
-        <View>{filterResultByPrice(id) ? viewList : null}</View>
+        <View>
+            {filterResultByPrice(id) ? viewList : null}
+        </View>
     </View>
 }
 const styles = StyleSheet.create({
