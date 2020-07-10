@@ -6,26 +6,32 @@ import { withNavigation } from 'react-navigation';
 
 const ResultList = (props) => {
 
+    const filterResultById = (id) => {
+        return props.itemList.filter(item => {
+            return item.Type_ID === id;
+        })
+    }
+
     return <View>
         <Text
             h4
             style={styles.titleHead}>
-            {props.electronicsList.type}:
+            {props.electronicsList.Type_Name}:
         </Text>
         <FlatList
             horizontal
             showsHorizontalScrollIndicator={false}
-            data={props.electronicsList.payload}
-            keyExtractor={(electronic) => electronic.name}
+            data={filterResultById(props.electronicsList.Type_ID)}
+            keyExtractor={(electronic) => electronic.Item_ID}
             renderItem={({ item }) => {
                 return <View style={styles.container}>
                     <TouchableOpacity
-                        onPress={() => props.navigation.navigate('List', { id: item.name })}
+                        onPress={() => props.navigation.navigate('List', { TypeId: item.Type_ID, ItemID: item.Item_ID })}
                     >
-                        <Text style={styles.title}>{item.name}</Text>
+                        <Text style={styles.title}>{item.Item_Name}</Text>
                         <Image
-                            containerStyle={styles.img}
-                            source={{ uri: item.img_url }}
+                            containerStyle={styles.Img}
+                            source={{ uri: item.Img }}
                             style={{ width: 200, height: 200 }}
                         />
                     </TouchableOpacity>
