@@ -13,15 +13,16 @@ export default HomeScreen = (props) => {
   const [search, setSearch] = useState('')
   return <View>
     <ScrollView>
-      <SearchBar
+      {/* <SearchBar
         platform='ios'
         placeholder="Type Here..."
         onChangeText={setSearch}
         value={search}
-      />
+      /> */}
       <Text h3 style={styles.title}>Categories</Text>
       <ResultList electronicsList={electronicsList[0]} itemList={itemList}/>
       <ResultList electronicsList={electronicsList[1]} itemList={itemList}/>
+      <ResultList electronicsList={electronicsList[2]} itemList={itemList}/>
     </ScrollView>
   </View>
 }

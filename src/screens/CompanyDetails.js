@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Text, Image } from 'react-native-elements';
+import { Text } from 'react-native-elements';
 import { FlatList } from 'react-native-gesture-handler';
 import json from '../json/main.json'
 
@@ -18,6 +18,7 @@ export default CompanyDetails = (props) => {
     }
 
     return <View>
+        <Text h4 style={{margin: 10, marginBottom: 10}}>Avaliable companies:</Text>
         <FlatList
             keyExtractor={(company) => company.Brand}
             data={filterResultByName(countryId, itemID)}
@@ -34,7 +35,8 @@ export default CompanyDetails = (props) => {
 const styles = StyleSheet.create({
     texts: {
         marginHorizontal: 5,
-        padding: 10
+        padding: 5,
+        borderBottomWidth: 2
     },
     text: {
         padding: 5,

@@ -12,23 +12,28 @@ export default CountryListScreen = (props) => {
     const companiesData = json.ItemCountryBrand
     const coutryList = json.Country;
 
-    const filterResultByItem = (itemID) => {
+    const filterResultByType = (itemID) => {
         return coutryList.filter((country) => {
-             return companiesData.map(company=>{
+             let typeByCountry =  companiesData.filter(company=>{
                 return company.ItemID === itemID && company.Country === country.CountryID
-            })
+            });
+            if(typeByCountry.length > 0)
+                return true
+            else 
+                return false
         })
     }
 
     const viewList = <View>
+        <Text h4 style={{margin: 10}}>Select country:</Text>
         <FlatList
             keyExtractor={(country) => country.CountryName}
-            data={filterResultByItem(itemID)}
+            data={filterResultByType(itemID)}
             renderItem={({ item }) => {
                 return <View>
                     <TouchableOpacity
                         style={styles.list}
-                        onPress={() => props.navigation.navigate('Details', { countryId: item.CountryID, itemID: itemID })}
+                        onPress={() => props.navigation.navigate('Details', { countryId: item.CountryID, itemID })}
                     >
                         <Text h4 style={{ marginBottom: 15 }}>{item.CountryName}</Text>
                     </TouchableOpacity>
@@ -39,12 +44,12 @@ export default CountryListScreen = (props) => {
 
     const [search, setSearch] = useState('')
     return <View>
-        <SearchBar
+        {/* <SearchBar
             platform='ios'
             placeholder="Type Here..."
             onChangeText={setSearch}
             value={search}
-        />
+        /> */}
         <View>
             {viewList}
         </View>

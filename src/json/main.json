@@ -1,140 +1,156 @@
 {
     "Type": [
         {
-            "Type_ID": "1",
+            "Type_ID": "100",
             "Type_Name": "Electronics"
         },
         {
-            "Type_ID": "2",
+            "Type_ID": "200",
             "Type_Name": "Mobile Apps"
+        },
+        {
+            "Type_ID": "300",
+            "Type_Name": "Home Accessories"
         }
     ],
     "TypeItem": [
         {
-            "Type_ID": "1",
-            "Item_ID": "1",
-            "Item_Name": "Television",
-            "Img": "https://cdn1.smartprix.com/rx-id0EG4oIx-w1200-h1200/detel-di32wipf-32-in.jpg"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "2",
-            "Item_Name": "Refrigerator",
-            "Img": "https://5.imimg.com/data5/FB/VL/GT/SELLER-36249512/rt26farzasp-samsung-refrigerator-500x500.jpg"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "3",
-            "Item_Name": "Washing Machine",
-            "Img": "https://rukminim1.flixcart.com/image/352/352/k0r15e80/washing-machine-new/f/r/p/senator-aqua-sx-ifb-original-imafkh4jyefbaypt.jpeg?q=70"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "4",
-            "Item_Name": "ACs",
-            "Img": "https://www.jagranimages.com/images/2020/may/AC1589272398916.jpg"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "5",
-            "Item_Name": "Air Coolers",
-            "Img": "https://images-na.ssl-images-amazon.com/images/I/815GILHbTaL._SL1500_.jpg"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "6",
-            "Item_Name": "Mixers and Grinders",
-            "Img": "https://images-na.ssl-images-amazon.com/images/I/61Z4fxBfkVL._SX425_.jpg"
-        },
-        {
-            "Type_ID": "1",
-            "Item_ID": "9",
+            "Type_ID": "100",
+            "Item_ID": "1009",
             "Item_Name": "Mobiles",
-            "Img": "https://static.digit.in/product/2d13cfdb9111ad0af2b1b35e1c520239f5f7c85a.jpeg?tr=w-1200"
+            "Img": "mobiles"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "10",
+            "Type_ID": "100",
+            "Item_ID": "1001",
+            "Item_Name": "Television",
+            "Img": "television"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "1002",
+            "Item_Name": "Refrigerator",
+            "Img": "refrri"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "1004",
+            "Item_Name": "ACs",
+            "Img": "ac"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "1005",
+            "Item_Name": "Air Coolers",
+            "Img": "coolers"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "1003",
+            "Item_Name": "Washing Machine",
+            "Img": "wash"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "1006",
+            "Item_Name": "Mixers and Grinders",
+            "Img": "mixer"
+        },
+        {
+            "Type_ID": "100",
+            "Item_ID": "10010",
             "Item_Name": "Laptops and Computers",
-            "Img": "https://i.dell.com/sites/csimages/Video_Imagery/all/xps_7590_touch.png"
+            "Img": "laptops"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "11",
+            "Type_ID": "100",
+            "Item_ID": "10011",
             "Item_Name": "Mobile Accessories",
-            "Img": "https://static.toiimg.com/photo/71748718.cms?imglength=120942"
+            "Img": "MobAcc"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "12",
+            "Type_ID": "100",
+            "Item_ID": "10012",
             "Item_Name": "Computer Accessories",
-            "Img": "https://s.alicdn.com/@sc01/kf/HTB1KozxMVXXXXcdXXXXq6xXFXXXM.jpg"
+            "Img": "compAss"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "13",
+            "Type_ID": "100",
+            "Item_ID": "10013",
             "Item_Name": "Sound Systems",
-            "Img": "https://5.imimg.com/data5/FD/MQ/MY-9002624/sony-music-system-500x500.png"
+            "Img": "soundSys"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "14",
+            "Type_ID": "100",
+            "Item_ID": "10014",
             "Item_Name": "CCTV",
-            "Img": "https://5.imimg.com/data5/FD/MQ/MY-9002624/sony-music-system-500x500.png"
+            "Img": "cctv"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "15",
+            "Type_ID": "100",
+            "Item_ID": "10015",
             "Item_Name": "Camera",
-            "Img": "https://static.bhphoto.com/images/images500x500/1536120359_1433711.jpg"
+            "Img": "cam"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "16",
+            "Type_ID": "100",
+            "Item_ID": "10016",
             "Item_Name": "Power Bank",
-            "Img": "https://images.philips.com/is/image/PhilipsConsumer/DLP6006_97-IMS-en_IN?$jpglarge$&wid=1250"
+            "Img": "powerbank"
         },
         {
-            "Type_ID": "1",
-            "Item_ID": "17",
+            "Type_ID": "100",
+            "Item_ID": "10017",
             "Item_Name": "Smart Watch",
-            "Img": "https://cdn57.androidauthority.net/wp-content/uploads/2020/01/Oppo-Smartwatch.jpg"
+            "Img": "smartwatch"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "1",
-            "Item_Name": "Chat Applications",
-            "Img": "https://media.timeout.com/images/105631955/image.jpg"
+            "Type_ID": "200",
+            "Item_ID": "2001",
+            "Item_Name": "Chat/Conference Apps",
+            "Img": "chataap"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "2",
+            "Type_ID": "200",
+            "Item_ID": "2002",
             "Item_Name": "Games",
-            "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR__qxRJsoTHPNow5AcZyWExKdZhsNQMNA35g&usqp=CAU"
+            "Img": "mgames"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "3",
-            "Item_Name": "Audio",
-            "Img": "data:image/jpeg;base64,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"
+            "Type_ID": "200",
+            "Item_ID": "2003",
+            "Item_Name": "Music Apps",
+            "Img": "audio"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "4",
-            "Item_Name": "Video",
-            "Img": "https://images.indianexpress.com/2020/03/Streaming-guide-759-1-1.jpg"
+            "Type_ID": "200",
+            "Item_ID": "2004",
+            "Item_Name": "OTT Apps",
+            "Img": "video"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "5",
-            "Item_Name": "Banking",
-            "Img": "https://miro.medium.com/max/560/1*KRDXJUlO1Oj4t-K-57yRXg.png"
+            "Type_ID": "200",
+            "Item_ID": "2005",
+            "Item_Name": "Banking Apps",
+            "Img": "banking"
         },
         {
-            "Type_ID": "2",
-            "Item_ID": "6",
+            "Type_ID": "200",
+            "Item_ID": "2006",
             "Item_Name": "Social Applications",
-            "Img": "data:image/jpeg;base64,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"
+            "Img": "social"
+        },
+        {
+            "Type_ID": "300",
+            "Item_ID": "3001",
+            "Item_Name": "Water Filters",
+            "Img": "waterFil"
+        },
+        {
+            "Type_ID": "300",
+            "Item_ID": "3002",
+            "Item_Name": "Home Utensils",
+            "Img": "homeUti"
         }
     ],
     "Country": [
@@ -189,572 +205,1037 @@
         {
             "CountryID": "13",
             "CountryName": "German"
+        },
+        {
+            "CountryID": "14",
+            "CountryName": "UK"
+        },
+        {
+            "CountryID": "15",
+            "CountryName": "Sweden"
+        },
+        {
+            "CountryID": "16",
+            "CountryName": "Hong Kong"
+        },
+        {
+            "CountryID": "17",
+            "CountryName": "France"
+        },
+        {
+            "CountryID": "18",
+            "CountryName": "Russia"
         }
     ],
     "ItemCountryBrand": [
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Micromax",
             "Country": "1"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Videocon",
             "Country": "1"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Onida",
             "Country": "1"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "LG",
             "Country": "3"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Sharp",
             "Country": "2"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Oneplus",
             "Country": "7"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "TCL",
             "Country": "7"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Xiaomi",
             "Country": "7"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Haier",
             "Country": "7"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Haier",
             "Country": "7"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "TCL",
             "Country": "7"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Haier",
             "Country": "7"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "TCL",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Motorola",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Oneplus",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Oppo",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Realme",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Vivo",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Xiaomi",
             "Country": "7"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Lenovo",
             "Country": "7"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Xiaomi",
             "Country": "7"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Lenovo",
             "Country": "7"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Oppo",
             "Country": "7"
         },
         {
-            "ItemID": "14",
+            "ItemID": "10014",
             "Brand": "HikVision",
             "Country": "7"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Aigo",
             "Country": "7"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "DJI",
             "Country": "7"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Oneplus",
             "Country": "7"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Oppo",
             "Country": "7"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Vivo",
             "Country": "7"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Xiaomi",
             "Country": "7"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Amazfit",
             "Country": "7"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Huawei",
             "Country": "7"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Xiaomi",
             "Country": "7"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Nokia",
             "Country": "10"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Bosch",
             "Country": "13"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Bosch",
             "Country": "13"
         },
         {
-            "ItemID": "14",
+            "ItemID": "10014",
             "Brand": "CPPlus",
             "Country": "13"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Intex",
             "Country": "1"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Godrej",
             "Country": "1"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Mitashi",
             "Country": "1"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Onida",
             "Country": "1"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Voltas",
             "Country": "1"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Godrej",
             "Country": "1"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Mitashi",
             "Country": "1"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "BlueStar",
             "Country": "1"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Godrej",
             "Country": "1"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Mitashi",
             "Country": "1"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Onida",
             "Country": "1"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Voltas",
             "Country": "1"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Jio",
             "Country": "1"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Karbonn",
             "Country": "1"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Lava",
             "Country": "1"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Micromax",
             "Country": "1"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "iBall",
             "Country": "1"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Micromax",
             "Country": "1"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Ambrane",
             "Country": "1"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "iBall",
             "Country": "1"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Zebronics",
             "Country": "1"
         },
         {
-            "ItemID": "14",
+            "ItemID": "10014",
             "Brand": "Godrej",
             "Country": "1"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Ambrane",
             "Country": "1"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Intex",
             "Country": "1"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Syska",
             "Country": "1"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Zebronics",
             "Country": "1"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Intex",
             "Country": "1"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Zebronics",
             "Country": "1"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Panasonic",
             "Country": "4"
         },
         {
-            "ItemID": "1",
+            "ItemID": "1001",
             "Brand": "Sony",
             "Country": "4"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Hitachi",
             "Country": "4"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Panasonic",
             "Country": "4"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Sony",
             "Country": "4"
         },
         {
-            "ItemID": "14",
+            "ItemID": "10014",
             "Brand": "Sony",
             "Country": "4"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Canon",
             "Country": "4"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Fujifilm",
             "Country": "4"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Nikon",
             "Country": "4"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Panasonic",
             "Country": "4"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "Sony",
             "Country": "4"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Philips",
             "Country": "12"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Philips",
             "Country": "12"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "LG",
             "Country": "3"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "LG",
             "Country": "3"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "LG",
             "Country": "3"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "LG",
             "Country": "3"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "JBL",
             "Country": "3"
         },
         {
-            "ItemID": "14",
+            "ItemID": "10014",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "16",
+            "ItemID": "10016",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Samsung",
             "Country": "3"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "IFB",
             "Country": "11"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Logitech",
             "Country": "11"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Asus",
             "Country": "2"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Acer",
             "Country": "2"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Asus",
             "Country": "2"
         },
         {
-            "ItemID": "2",
+            "ItemID": "1002",
             "Brand": "Whirlpool",
             "Country": "9"
         },
         {
-            "ItemID": "3",
+            "ItemID": "1003",
             "Brand": "Whirlpool",
             "Country": "9"
         },
         {
-            "ItemID": "4",
+            "ItemID": "1004",
             "Brand": "Daikin",
             "Country": "9"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Apple",
             "Country": "9"
         },
         {
-            "ItemID": "9",
+            "ItemID": "1009",
             "Brand": "Google",
             "Country": "9"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Apple",
             "Country": "9"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Dell",
             "Country": "9"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "HP",
             "Country": "9"
         },
         {
-            "ItemID": "10",
+            "ItemID": "10010",
             "Brand": "Microsoft",
             "Country": "9"
         },
         {
-            "ItemID": "13",
+            "ItemID": "10013",
             "Brand": "Bose",
             "Country": "9"
         },
         {
-            "ItemID": "15",
+            "ItemID": "10015",
             "Brand": "GoPro",
             "Country": "9"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "Apple",
             "Country": "9"
         },
         {
-            "ItemID": "17",
+            "ItemID": "10017",
             "Brand": "FitBit",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Fortnite",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Pokémon GO",
+            "Country": "8"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Call of Duty: Mobile",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Clash of Clans",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Clash Royale",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2002",
+            "Brand": "Candy Crush",
+            "Country": "15"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Spotify",
+            "Country": "14"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Apple Music",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Google Play Music",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "YouTube Music",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Amazon Prime Music",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Gaana",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "JioSaavn",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Wynk Music",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "Hungama Music",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2003",
+            "Brand": "SoundCloud ",
+            "Country": "14"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Voot",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "ALT Balaji",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "BigFlix",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Amazon Prime Video",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Viu",
+            "Country": "16"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Sony LIV",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Eros Now",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "ZEE5",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Netflix",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2004",
+            "Brand": "Disney+ Hotstar",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Mitticool",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Nirnal",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Kent",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Eureka Forbes",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "A. O. Smith",
+            "Country": "9"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Faber Neutron",
+            "Country": "9"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Havells",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "LG",
+            "Country": "3"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Blue Star",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Livpure",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3002",
+            "Brand": "Mitticool",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3002",
+            "Brand": "DB Industries",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3002",
+            "Brand": "Le Creuset",
+            "Country": "17"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "All-Clad",
+            "Country": "9"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Royal Doulton",
+            "Country": "14"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Circulon",
+            "Country": "9"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Farberware",
+            "Country": "18"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Milton",
+            "Country": "1"
+        },
+        {
+            "ItemID": "3001",
+            "Brand": "Tupperware",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "LiveMe",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Mi Video Call",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Viva Video",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "WeChat",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "QQ International",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Say Namaste",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Hike",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Jio Meet",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "ShareChat",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Viber",
+            "Country": "4"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Telegram",
+            "Country": "14"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Google Duo",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Google Meet",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Facebook",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Hangout",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Snapchat",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Zoom",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Imo",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Line",
+            "Country": "3"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "skype",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Webex",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2001",
+            "Brand": "Whatsapp",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2005",
+            "Brand": "Bhim",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2005",
+            "Brand": "Gpay",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2005",
+            "Brand": "PhonePe",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Aarogya Setu",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "BeautyPlus",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "BigoLive",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Chinagari",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Dubsmash",
+            "Country": "13"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Helo",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Likee",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Mi Community",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Mitron",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Roboso",
+            "Country": "1"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Tinder",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "VigoVideo",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "WeMeet",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "WeSync",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Weibo",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "Xender",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "facebook",
+            "Country": "9"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "tiktok",
+            "Country": "7"
+        },
+        {
+            "ItemID": "2006",
+            "Brand": "twitter",
             "Country": "9"
         }
     ]

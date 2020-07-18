@@ -3,6 +3,7 @@ import { Text, Image } from 'react-native-elements';
 import { View, StyleSheet } from 'react-native';
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler';
 import { withNavigation } from 'react-navigation';
+import images from '../json/imgRepo';
 
 const ResultList = (props) => {
 
@@ -31,7 +32,7 @@ const ResultList = (props) => {
                         <Text style={styles.title}>{item.Item_Name}</Text>
                         <Image
                             containerStyle={styles.Img}
-                            source={{ uri: item.Img }}
+                            source={images[item.Img]}
                             style={{ width: 200, height: 200 }}
                         />
                     </TouchableOpacity>
